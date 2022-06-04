@@ -27,6 +27,7 @@ import com.netjstech.model.SignupRequest;
 import com.netjstech.model.User;
 import com.netjstech.security.JwtTokenUtil;
 
+//Se agrega la anotación @CrossOrigin en clase Controller
 @RestController
 @CrossOrigin(origins="http://localhost:4200") 
 @RequestMapping("/auth")
