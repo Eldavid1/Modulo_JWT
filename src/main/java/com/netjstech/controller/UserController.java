@@ -14,5 +14,13 @@ public class UserController {
 	public String displayUsers() {
 		return "Display All Users";
 	}
+	@GetMapping("/oneusers")
+	public String displayUsers() {
+		return "Display one user";
+	}
+	@GetMapping("/deleteusers")
+	public String displayUsers() {
+		return "Display delete Users";
+	}
 	
 }
